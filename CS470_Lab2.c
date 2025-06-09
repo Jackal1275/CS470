@@ -8,7 +8,7 @@
 
 // Commands for child processes
 const char *commands[NUM_CHILDREN][3] = {
-    {"echo", "Hello YourName", NULL},     // Unique echo task (include your name!)
+    {"echo", "Hello JackSchenck", NULL},     // Unique echo task (include your name!)
     {"ls", "-l", NULL},
     {"date", NULL},
     {"whoami", NULL},

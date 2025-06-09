@@ -1,13 +1,13 @@
-# Makefile for process_simulator
+# Makefile for CS470_Lab2
 
 CC = gcc
 CFLAGS = -Wall -g
-TARGET = process_simulator
+TARGET = CS470_Lab2
 
 all: $(TARGET)
 
-$(TARGET): process_simulator.c
-	$(CC) $(CFLAGS) -o $(TARGET) process_simulator.c
+$(TARGET): CS470_Lab2.c
+	$(CC) $(CFLAGS) -o $(TARGET) CS470_Lab2.c
 
 clean:
 	rm -f $(TARGET)
